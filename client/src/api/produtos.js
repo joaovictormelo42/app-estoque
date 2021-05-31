@@ -4,7 +4,7 @@ const api = axios.create({
   baseURL: "http://localhost:3001/",
 })
 
-/* Tentativa de criação - Teste
+/* Teste_001
 export default axios.create({
   baseURL: "http://localhost:3001/",
 });
