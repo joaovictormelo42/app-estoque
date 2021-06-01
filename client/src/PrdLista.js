@@ -1,5 +1,5 @@
 import React from 'react';
-import axios from 'axios';
+//import axios from 'axios';
 import Api from './Api';
 //exportamos a classe PrdLista com retorno da promessa com os dados dos registros.
 export default class PrdLista extends React.component{
