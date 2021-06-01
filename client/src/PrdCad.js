@@ -43,7 +43,6 @@ export default class PrdCad extends React.Component{
         console.log(response);
         console.log(response.data);
 
-
     };
     //cria o formulário para preenchimento dos campos
     render() {
