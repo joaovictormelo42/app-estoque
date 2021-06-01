@@ -1,7 +1,6 @@
 //importar estilos utilizados e também dados da comunicação para api.
 import "./App.css";
-import api from './api/produtos.js' 
-
+import api from './api/produtos.js';
 /*
 function App() {
   return (
