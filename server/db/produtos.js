@@ -1,11 +1,12 @@
 const knex = require("./knex");
+const cors = require('cors');
 //criado função para inserir produtos (POST)
 function cadastrarProduto(produto) {
   return knex("produtos").insert(produto);
 };
 //criado função para listar produtos (GET)
 function listarTodosProdutos() {
-  return knex("produtos").select("*");
+ return knex("produtos").select("*");
 };
 //criado função para deletar produtos (DELETE)
 function deletarProduto(id) {

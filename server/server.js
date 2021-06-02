@@ -2,6 +2,10 @@ const bodyParser = require('body-parser');
 const express = require('express');
 const app = express();
 const db = require("./db/produtos");
+const cors = require("cors");
+
+app.use(cors())
+
 //use bodyParser para trabalhar com os dados vindos do client.
 app.use(bodyParser.urlencoded({ extended: false })); // boa prática, evita envio de campos encadeados
 app.use(bodyParser.json());
